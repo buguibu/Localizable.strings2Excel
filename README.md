@@ -1,10 +1,7 @@
 # Localizable.strings2Excel
 Python command line tool for conversion between iOS Localizable.strings and excel file & Localizable.strings to android strings.xml file.
 
-## Buguibu's clone
-My version works in this way:
-
-### Extract strings to xls
+#### Extract strings to xls
 ```
 python ~/Projects/Localizable.strings2Excel/python/Strings2XlsByLang.py -f ~/Projects/app-root/folder-that-contains-all-*.lprjoj-directories/ -t ~/Desktop
 ```
@@ -16,7 +13,7 @@ This generates the following structure:
         * Main.string
         * InfoPlist.strings
 
-### Convert xls to strings
+#### Convert xls to strings
 ```
 python ~/Projects/Localizable.strings2Excel/python/Xls2StringsByLang.py -f ~/folder-that-contains-xls-by-lang-files/ -t ~/destination-path -i ios
 ```
